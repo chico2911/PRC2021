@@ -12,7 +12,7 @@ f.write(header)
 #Escrevers as unidades curriculares
 for uc in data['ucs']:
     text = "###  http://www.di.uminho.pt/prc2021/uc#"+ uc['id']+"\n"
-    text += ':' + uc['id'] + " rdf:type owl:NamedIndividual\n                 :Unidade Curricular ;\n"
+    text += ':' + uc['id'] + " rdf:type owl:NamedIndividual ,\n                 :Unidade Curricular ;\n"
     text+= "         :anoLetivo \"" + uc['anoLetivo']  + "\" ;\n"
     text+= "         :designação \"" + uc['designacao'] + "\" .\n\n"
     f.write(text)
@@ -20,7 +20,7 @@ for uc in data['ucs']:
 #Escrever Docentes
 for professor in data["professores"]:
     text = "###  http://www.di.uminho.pt/prc2021/uc#" + professor['id'] + "\n"
-    text += ':' + professor['id'] + " rdf:type owl:NamedIndividual\n                 :Professor ;\n"
+    text += ':' + professor['id'] + " rdf:type owl:NamedIndividual ,\n                 :Professor ;\n"
     uc = professor['ensina'].split(',')
     i=0;
     for cadeira in uc:

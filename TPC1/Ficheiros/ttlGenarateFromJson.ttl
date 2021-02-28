@@ -91,110 +91,110 @@
 #################################################################
 
 ###  http://www.di.uminho.pt/prc2021/uc#PRC
-:PRC rdf:type owl:NamedIndividual
+:PRC rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Processamento e Representação de Conhecimento" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#SPLN
-:SPLN rdf:type owl:NamedIndividual
+:SPLN rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Scripting no Processamento de Linguagem Natural" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#PRI
-:PRI rdf:type owl:NamedIndividual
+:PRI rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Processamento e Representação de Informação" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#GCS
-:GCS rdf:type owl:NamedIndividual
+:GCS rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Gramáticas na Compreensão de Software" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#CP
-:CP rdf:type owl:NamedIndividual
+:CP rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Cálculo de Programas" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#AlgC
-:AlgC rdf:type owl:NamedIndividual
+:AlgC rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Algoritmos e Complexidade" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#SR
-:SR rdf:type owl:NamedIndividual
+:SR rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Segurança de Redes" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#GR
-:GR rdf:type owl:NamedIndividual
+:GR rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Gestão de Redes" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#VR
-:VR rdf:type owl:NamedIndividual
+:VR rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Virtualização de Redes" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#AER
-:AER rdf:type owl:NamedIndividual
+:AER rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Arquiteturas Emergentes de Redes" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#CD
-:CD rdf:type owl:NamedIndividual
+:CD rdf:type owl:NamedIndividual ,
                  :Unidade Curricular ;
          :anoLetivo "2020/2021" ;
          :designação "Comunicação de Dados" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#jcr
-:jcr rdf:type owl:NamedIndividual
+:jcr rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :PRC ,
                  :PRI ;
          :nome "José Carlos Ramalho" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#jj
-:jj rdf:type owl:NamedIndividual
+:jj rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :SPLN ;
          :nome "José João" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#prh
-:prh rdf:type owl:NamedIndividual
+:prh rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :GCS ;
          :nome "Pedro Rangel Henriques" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#jno
-:jno rdf:type owl:NamedIndividual
+:jno rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :CP ;
          :nome "José Nuno Oliveira" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#ac
-:ac rdf:type owl:NamedIndividual
+:ac rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :CP ;
          :nome "Alcino Cunha" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#jbb
-:jbb rdf:type owl:NamedIndividual
+:jbb rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :AlgC ;
          :nome "José Bernardo Barros" .
 
 ###  http://www.di.uminho.pt/prc2021/uc#hp
-:hp rdf:type owl:NamedIndividual
+:hp rdf:type owl:NamedIndividual ,
                  :Professor ;
          :ensina :SR ,
                  :AER ;
