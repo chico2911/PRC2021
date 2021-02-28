@@ -9,6 +9,8 @@ with open("header.txt", encoding='utf8') as head:
 
 f.write(header)
 
+f.write("######## Unidades Curriculares ###########\n\n")
+
 #Escrevers as unidades curriculares
 for uc in data['ucs']:
     text = "###  http://www.di.uminho.pt/prc2021/uc#"+ uc['id']+"\n"
@@ -16,6 +18,8 @@ for uc in data['ucs']:
     text+= "         :anoLetivo \"" + uc['anoLetivo']  + "\" ;\n"
     text+= "         :designação \"" + uc['designacao'] + "\" .\n\n"
     f.write(text)
+
+f.write("######## Professores ###########\n\n")
 
 #Escrever Docentes
 for professor in data["professores"]:
@@ -41,6 +45,8 @@ for professor in data["professores"]:
     text+= "         :nome \"" + professor['nome'] + "\" .\n\n"
     f.write(text)
 
+f.write("######## Alunos ###########\n\n")
+
 #Escrever Alunos
 for aluno in data['alunos']:
     uc = aluno['frequenta'].split(',')
@@ -60,7 +66,7 @@ for aluno in data['alunos']:
                 frase+= " ,\n"    
         i+=1         
     text = "###  http://www.di.uminho.pt/prc2021/uc#"+ aluno['id']+"\n"
-    text += ':' + aluno['id'] + " rdf:type owl:NamedIndividual ;\n"
+    text += ':' + aluno['id'] + " rdf:type owl:NamedIndividual ,\n                 :Aluno ;\n"
     text+= "         :frequenta :" + frase
     text+= "         :nome \"" + aluno['nome'] + "\" .\n\n"
     f.write(text)
