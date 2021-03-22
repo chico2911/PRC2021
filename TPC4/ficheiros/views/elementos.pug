@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3.w3-center Elementos
+        .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Nome
+                        th Simbolo
+                        th Atomic Number
+                    each elem in elementos
+                        tr
+                            td
+                                a(href= "elementos/" + elem.id)= elem.name
+                            td= elem.simb 
+                            td= elem.anumber    
+        footer(class="w3-container w3-teal")
+            adress.w3-right A85367
+            a(href="/") Voltar

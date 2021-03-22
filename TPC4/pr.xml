@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>WebApp, GraphDB</key>
+        <title>Resolução do TPC 4</title>
+        <bdate>Março 2021</bdate>
+        <edate>Março 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a85367">
+            <name>Luís Francisco Mendes Lopes</name>
+            <email>a85367@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p> O tpc consiste na implementação de um Front-End Web para apresentar a informação da tabela periódica presente na base de dados <b>GraphDB</b>.</p>
+
+    </abstract>
+    <deliverables>
+        <link url="../ficheiros/routes/index.js">Rotas criadas</link>
+        <link url="../ficheiros/views">Páginas Pug</link>                        
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
